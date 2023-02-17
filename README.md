@@ -1,2 +1,2 @@
 # web-truyen-tranh
-open in terminal -> npm start
+open in terminal file json server -> npm start
