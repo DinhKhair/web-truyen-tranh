@@ -1,0 +1,14 @@
+:root {
+    --white-color: white;
+    --header-height: 70px;
+    --navbar-height: 40px;
+    --search-color: #edf0f3;
+    --navbar-color: #e98f3f;
+    --text-color: black;
+    --button-color: #eaeaea;
+    --button-color-hover: #dddddd;
+    --price-color: #ff0000;
+    --button-buy-color: #e68841;
+    --boder-radius: 3px;
+    --background-color-cart: #f5f5fa;
+} 

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Image/icons8-open-book-48.png">
+    <link rel="stylesheet" href="./assets/CSS/grid.css">
+    <link rel="stylesheet" href="./assets/CSS/base.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="stylesheet" href="./assets/CSS/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Truyện tranh</title>
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header-navbar">
+                <div class="header-navbar-logo">
+                    <img src="./assets/Image/icons8-open-book-48.png" alt="">
+                </div>
+                <div class="header-navbar-search">
+                    <div class="header-navbar-search-item">
+                        <input class="header-navbar-search-item-input" placeholder="search..." type="text">
+                        <span class="header-navbar-search-item-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="header-navbar-item">
+                        <div class="header-navbar-item-cart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span class="header-navbar-item-cart-notice">0</span>
+                            <div class="header-navbar-item-cart-list">
+                                <div class="header-navbar-item-no-cart">k co san pham</div>
+                                <ul class="header-navbar-item-cart-product-ul">
+                                
+                                </ul>
+                            </div>
+                        </div>
+                    <button class="header-navbar-item-login">Đăng nhập</button>
+                </div>    
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="container-menu">
+                        <a class="container-menu-item" href="">Conan</a>
+                        <a class="container-menu-item" href="">One piece</a>
+                        <a class="container-menu-item" href="">Shin - Cậu bé bút chì</a>
+                        <a class="container-menu-item" href="">Doraemon</a>
+                        <a class="container-menu-item" href="">Naruto</a>
+                        <a class="container-menu-item" href="">Dragon Ball</a>
+                    </div>
+                    <div class="container-product">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-icon">
+                <div class="footer-icon-facebook">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </div>
+                <div class="footer-icon-github">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+            <div class="footer-title">
+                Truyện tranh
+            </div>
+            <div class="footer-btn">
+                <label for="input-add-product" class="footer-btn-add">Thêm sản phẩm</label>
+                <input type="checkbox" class="checkbox-input-add" id="input-add-product">
+                
+                <label for="input-add-product" class="overlay"></label>
+                <div class="add-product">
+                    <label for="input-add-product" class="add-product-close"><i class="fa-solid fa-xmark"></i></label>
+                    <div class="add-product-content">
+                        <div class="add-product-item">
+                            <label class="add-product-item-name">Ảnh sản phẩm:</label>
+                            <input class="add-product-item-input" type="text" name="image">
+                        </div>
+                        <div class="add-product-item">
+                            <label class="add-product-item-name">Tên sản phẩm:</label>
+                            <input class="add-product-item-input" type="text" name="name">
+                        </div>
+                        <div class="add-product-item">
+                            <label class="add-product-item-name">Giá sản phẩm:</label>
+                            <input class="add-product-item-input" type="text" name="price">
+                        </div>
+                        <button class="btn-add">Thêm sản phẩm</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./assets/JS/index.js"></script>
+</body>
+</html>
